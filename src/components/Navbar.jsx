@@ -20,7 +20,7 @@ const Navbar = () =>{
                     <a href="" className="hover:bg-[#7C3AED] rounded-full p-2 w-18.75 text-center">Contacts</a>
                 </div>
 
-                <a href="../public/Devanarayanan_resume (4).pdf" className="text-white flex items-center rounded-full border-2 border-white px-2 hover:text-[#7C3AED] hover:border-[#7C3AED]"><MdOutlineFileDownload /><p>Resume</p></a>
+                <a href="/Devanarayanan_resume (4).pdf" target="_blank" className="text-white flex items-center rounded-full border-2 border-white px-2 hover:text-[#7C3AED] hover:border-[#7C3AED]"><MdOutlineFileDownload /><p>Resume</p></a>
             </div>
         </>
     )
