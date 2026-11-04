@@ -41,7 +41,7 @@ const Contact = () =>{
 
                 <div className="flex gap-10">
                     {media.map((item)=>(
-                                <div className="flex flex-col items-center">
+                                <div key={item.platform} className="flex flex-col items-center">
                                     <div>{item.icon}</div>
                                     <p>{item.platform}</p>
                                     <p>{item.id}</p>

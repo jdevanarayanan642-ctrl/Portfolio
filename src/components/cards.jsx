@@ -38,7 +38,7 @@ const Cards = () =>{
           
 
           {cards.map((item)=>(
-              <div className=" bg-[#1b0a39] p-5 rounded-2xl flex flex-col gap-4">
+              <div key={item.title} className=" bg-[#1b0a39] p-5 rounded-2xl flex flex-col gap-4 hover:scale-105 duration-300 ease-in-out transition-transform">
                 <img src={item.image} alt="" />
                 <h1 className="font-bold text-2xl">{item.title}</h1>
                 <p>{item.description}</p>

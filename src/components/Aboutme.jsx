@@ -65,13 +65,13 @@ const Aboutme = () =>{
 
                 <div className="cardz flex justify-center gap-15 mt-14">
 
-                    {data.map((data)=>(
-                        <>
-                            <div className="flex flex-col items-center bg-[#1b0a39] px-7 py-2 rounded-sm">
-                                <p>{data.logo}</p>
-                                <p>{data.skill}</p>
+                    {data.map((item)=>(
+                        
+                            <div key={item.skill} className="flex flex-col items-center bg-[#1b0a39] px-7 py-2 rounded-sm">
+                                <p>{item.logo}</p>
+                                <p>{item.skill}</p>
                             </div>
-                        </>
+                        
                     ))}
 
 
