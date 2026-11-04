@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+body{
+    background-color: #080A12;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.ai-glow-spill-mask {
+      mask-image: radial-gradient(
+        ellipse 100% 100% at 50% 50%,
+        transparent 50%,
+        black 100%
+      );
+    }
