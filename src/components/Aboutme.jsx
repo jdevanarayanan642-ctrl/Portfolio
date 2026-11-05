@@ -51,7 +51,7 @@ const Aboutme = () =>{
     return(
         <>
             <div className="mt-15 flex justify-center gap-20">
-                <img src="../public/aboutmesection.jpg" className="h-55 rounded-2xl" alt="" />
+                <img src="/aboutmesection.jpg" className="h-55 rounded-2xl" alt="" />
 
                 <div className="w-100">
                     <h1 className="text-3xl font-bold">About <span className="text-[#7C3AED]">Me</span></h1>

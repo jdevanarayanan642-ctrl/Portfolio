@@ -6,7 +6,7 @@ const Hero = () =>{
 
     return(
         <>
-            <div className="bg-[url('../public/hero.png')] bg-center bg-cover h-[75vh] flex items-center ps-15">
+            <div className="bg-[url('/hero.png')] bg-center bg-cover h-[75vh] flex items-center ps-15">
                 <div>
                     <h1 className="text-4xl font-bold text-[#aa82ee]">Hi, I'm</h1>
 

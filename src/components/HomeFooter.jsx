@@ -30,7 +30,7 @@ const Contact = () =>{
     return(
         <>
             <h1 className="text-3xl font-bold text-center mt-13" >Get <span className="text-[#7C3AED]">In Touch</span></h1>
-            <div className="mt-20 flex justify-between px-30">
+            <div className="mt-20 flex justify-between px-20">
                 <div className=" flex flex-col gap-6">
                     <h1 className="text-3xl font-bold">Let's Connect!</h1>
                     <p>Feel free to reach out for collaborations,oppurtunities or just a friendly hello.</p>
