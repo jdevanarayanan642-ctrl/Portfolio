@@ -6,7 +6,7 @@ const Navbar = () =>{
 
     return(
         <>
-            <div className="nav-container flex justify-between mx-9 items-center my-5">
+            <div className="nav-container flex justify-between mx-9 items-center py-3">
                 <div className="logo">
                     {/* <img src="" alt="" /> */}
                     <h1 className="text-2xl font-bold"><span className="text-[#7C3AED] ">{"</>"}</span>Devanarayanan</h1>
