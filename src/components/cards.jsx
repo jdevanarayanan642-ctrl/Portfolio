@@ -34,7 +34,7 @@ const Cards = () =>{
       <div>
         <h1 className="text-3xl font-bold text-center mt-13">My <span className="text-[#7C3AED]">Projects</span></h1>
 
-        <div className="flex justify-between gap-8 mt-10 px-10">
+        <div className="flex flex-wrap md:flex-nowrap justify-between gap-8 mt-10 px-10">
           
 
           {cards.map((item)=>(
@@ -42,9 +42,9 @@ const Cards = () =>{
                 <img src={item.image} alt="" />
                 <h1 className="font-bold text-2xl">{item.title}</h1>
                 <p>{item.description}</p>
-                <div className="flex items-center justify-between px-4 mt-auto">
-                  <a href={item.link} target="_blank" className="flex items-center bg-[#7C3AED] p-2 rounded-3xl px-5 gap-2"><span>Live Demo</span><FaExternalLinkAlt /></a>
-                  <a href={item.git} target="_blank" className="flex items-center border-2 border-white p-2 rounded-3xl px-5 gap-2"><span>GitHub</span><FaGithub /></a>
+                <div className="flex items-center justify-between px-1 md:px-4 mt-auto">
+                  <a href={item.link} target="_blank" className="flex items-center bg-[#7C3AED] p-2 rounded-3xl px-3 md:px-5 gap-2"><span>Live Demo</span><FaExternalLinkAlt /></a>
+                  <a href={item.git} target="_blank" className="flex items-center border-2 border-white p-2 rounded-3xl px-3 md:px-5 gap-2"><span>GitHub</span><FaGithub /></a>
                 </div>
               </div>
           ))}
